@@ -99,3 +99,9 @@ loadGallery("g-arts",        "images/arts",        "FLUX · LoRA");
 loadGallery("g-vessel",      "images/vessel",      "LoRA · ComfyUI");
 loadGallery("g-td",          "images/3d",          "Maya · Substance");
 loadGallery("g-infographic", "images/infographic", "FLUX · Illustrator");
+tabLinks.forEach(function(link) {
+  link.addEventListener("click", function() {
+    lbImages = [];
+    lbIndex = 0;
+  });
+});

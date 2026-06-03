@@ -13,10 +13,9 @@ function loadGallery(gridId, folder, stack_default) {
                 var div = document.createElement("div");
                 div.className = "gi sq rv";
                 div.innerHTML =
-                    '<img src="' + folder + '/' + item.file + '" alt="' + num + '" loading="lazy">' +
-                    '<div class="gn">' + num + '</div>' +
-                    '<div class="gc"><div class="gc-s">' //+ stack +
-                    '</div></div>';
+                '<img src="' + folder + '/' + item.file + '" alt="' + num + '" loading="lazy">' +
+                '<div class="gn">' + num + '</div>' +
+                '<div class="gc"><div class="gc-s"></div></div>';
                 grid.appendChild(div);
             });
             setTimeout(function() {
